@@ -3,7 +3,7 @@
 ##### 2. 将下载的文件解压，将`iconfont.css`拷贝至项目目录中。
 ##### 3. 修改`iconfont.css`中的`.iconfont {...}`为`.icon {...}`。
 ##### 4. `app.js(app.ts)`下引入`iconfont.css`。
-##### 5. 在对用的页面引入`import { AtIcon } from "taro-ui";`。
+##### 5. 在对用的页面引入`import { AtIcon } from "taro-ui";`，并且按照`<a target="_blank" href="https://taro-ui.aotu.io/#/docs/icon">https://taro-ui.aotu.io/#/docs/icon</a>`修改配置文件。
 ##### 6. `<AtIcon prefixClass='icon' value='huli-' size='20' color="pink" />`，其中`prefixClass`永远为`icon`，`value`就是`iconfont`的样式名，例如现在`iconfont.css`中有以下这些样式
 ```
 .icon-huli-:before { content: "\e603"; }
