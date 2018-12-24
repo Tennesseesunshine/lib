@@ -11,4 +11,3 @@
 .icon-niao-:before { content: "\e605"; }
 ```
 在使用`<AtIcon />`标签的时候，`value`要去掉前边的`.icon-`，上边两个的`value`就分别为`huli-`，`niao-`。
-
