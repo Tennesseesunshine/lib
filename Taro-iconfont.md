@@ -1,5 +1,5 @@
 ## Taro下配置阿里`iconfont`字体图标
-##### 1. 添加需要的`iconfont`字体图标至自己项目中，使用`Unicode`下载压缩包至本地。
+##### 1. 添加需要的`iconfont`字体图标至自己项目中，使用`Font class`下载压缩包至本地。
 ##### 2. 将下载的文件解压，将`iconfont.css`拷贝至项目目录中。
 ##### 3. 修改`iconfont.css`中的`.iconfont {...}`为`.icon {...}`。
 ##### 4. `app.js(app.ts)`下引入`iconfont.css`。
